@@ -7,7 +7,7 @@ center_res = ctypes.windll.user32.GetSystemMetrics(0)/2, ctypes.windll.user32.Ge
 window = tk.Tk()
 window.attributes('-fullscreen', True)
 
-label = tk.Label(window, text="Type your key here", font=("Arial", 24), justify="center")
+label = tk.Label(window, text="Введи ключ и нажми ctrl+c", font=("Arial", 24))
 label.place(relx=.5, rely=.45, anchor="c")
 
 
